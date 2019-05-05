@@ -8,6 +8,11 @@
 /**************************
 		 General
 ***************************/
+/* Add code */
+.author.vcard{
+	display: none;
+}
+
 /* Tickets Season */
 div.wcb-session-favourite-icon a.fav-session-button{
 	background-image:none!important;
