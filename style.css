@@ -35,6 +35,7 @@ div.wcb-session-favourite-icon a.fav-session-button{
 #masthead {
 	position: relative;
 }
+
 /* #masthead::before {
 	position: absolute;
 	content: "";
@@ -57,11 +58,47 @@ div.wcb-session-favourite-icon a.fav-session-button{
 	right: 0;
 	z-index: -1;
 } */
+
 /**************************
 		 @media
 ***************************/
 
+@media screen and (max-width: 600px) {
+	#subscribe-blog-blog_subscription-2 #subscribe-email input {
+		width: 100% !important;
+   }
+	#subscribe-blog-blog_subscription-2 button {
+		height: 65px;
+		width: 100%;
+		margin-top: 10px;
+   }
+}
+
+@media screen and (min-width: 601px) {
+	#subscribe-blog-blog_subscription-2 #subscribe-email input {
+		width: 75% !important;
+   }
+	#subscribe-blog-blog_subscription-2 button {
+		height: 65px;
+		width: 24%;
+		margin-left: 1%;
+   }
+}
+
 @media screen and (max-width: 820px) {
+	#header-widget-1 {
+		flex-wrap: wrap;
+		height: auto !important;
+   }
+	#header-widget-1 section {
+		width: 100%;
+   }
+	#header-widget-1:before {
+		left: initial;
+		right: 5px;
+		top: -70px;
+   }
+
 	table {
 		width:100%;
 	}
@@ -360,7 +397,7 @@ article.post::after {
 	position: absolute;
 	display: block;
 	content: "";
-	background: url("https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_article_dots.png");
+	background: url("https://2019.thessaloniki.wordcamp.org/files/2018/07/wcthess_article_dots.png");
 	width: 184px;
 	height: 71px;
 	left: 0;
@@ -487,7 +524,7 @@ h2.entry-title {
 #footer-widget-3 .widget-title::after,
 #footer-widget-1 .widget-title::after {
 	content: '';
-	background: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_2018_dots@1x.png');
+	background: url('https://2019.thessaloniki.wordcamp.org/files/2018/07/wcthess_2018_dots@1x.png');
 	width: 180px;
 	display: block;
 	position: absolute;
@@ -1235,7 +1272,7 @@ a.cta-button:focus {
 	}
 }
 .custom-header {
-	background-image: url("https://2018.thessaloniki.wordcamp.org/files/2018/07/wcthess_big-hero.jpg");
+	background-image: url("https://2019.thessaloniki.wordcamp.org/files/2018/07/wcthess_big-hero.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -2155,7 +2192,7 @@ article {
 	border-style: solid;
 }
 body {
-	background: url('https://2018.thessaloniki.wordcamp.org/files/2018/07/fullback.jpg');
+	background: url('https://2019.thessaloniki.wordcamp.org/files/2018/07/fullback.jpg');
 	background-attachment: scroll;
 	background-position: 0 750px;
 	background-size: contain;
@@ -2345,4 +2382,202 @@ img.aligncenter{
 .page-id-7 #main a:hover{
 	color:	#28267a;
 	text-decoration:underline;
+}
+
+
+
+/*
+* 2019
+*/
+
+.entry-content table.roadmap-table {
+	max-width: 800px;
+	font-size: 20px;
+	font-size: 2rem;
+	line-height: 2.55;
+	color: #010101;
+	text-align: left;
+	margin: auto;
+	padding: 15px;
+}
+
+table.roadmap-table tr th:nth-of-type(1) {
+	width: 300px;
+}
+
+table.roadmap-table td, th {
+	padding: 1rem;
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+#header-widget-1:before {
+	content: '';
+	width: 150px;
+	height: 150px;
+	background: url('https://2019.thessaloniki.wordcamp.org/files/2019/06/wapuu-thessaloniki-small.png') no-repeat;
+	background-size: contain;
+	display: inline-block;
+	position: absolute;
+	top: -45px;
+	left: -35px;
+	z-index: 9999;
+}
+
+.textwidget.custom-html-widget a:hover img {
+	border-radius: 20px;
+}
+
+/***********************
+	Contact page
+***********************/
+
+.page-id-17 #contact-form-17 label span {
+	visibility: hidden;
+}
+.page-id-17 #contact-form-17 label span:before {
+	visibility: visible;
+	content: '( required )';
+}
+.page-id-17 #contact-form-17 button.pushbutton-wide {
+	font-size: 0;
+}
+.page-id-17 #contact-form-17 button.pushbutton-wide:before {
+	content: 'Submit';
+	display: block;
+	font-size: 18px;
+}
+
+
+.page-id-275 table td,
+.page-id-260 table td{
+	padding: 5px;
+	font-size: 16px
+}
+
+/***********************
+	Sponsor related
+***********************/
+
+#footer-widget-2 .wcb_widget_sponsors .sponsor-logo {
+    padding: 0;
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    float: initial;
+}
+
+#footer-widget-2 .wcb_widget_sponsors .sponsor-logo img {
+    display: inline-block;
+    float: none;
+}
+
+.wcb_widget_sponsors .sponsor-logo img {
+    height: auto !important;
+    width: auto !important;
+    padding: 5px 5px 5px 40px !important;
+}
+
+/***********************
+	Schedule table
+***********************/
+
+.page-id-3556  #main  a{
+	background-image: none;
+    background-image: none;
+    background-image: none;
+	background-position: left 0 bottom 0;
+}
+.page-id-3556 #main a:hover{
+	color:	#28267a;
+	text-decoration:underline;
+}
+
+
+body.page-id-3556 .wcpt-schedule th,
+body.page-id-3556 .wcpt-schedule td {
+	border: 1px solid rgba(194,181,155,1);
+}
+
+body.page-id-3556 .wcpt-time {
+	background: rgba(194,181,155,1);
+	color: #000;
+}
+
+body.page-id-3556 .wcpt-schedule th {
+	background: rgba(40,38,122,1);
+	color: #fff;
+	font-weight: 600;
+}
+
+body.page-id-3556 .contributors-day,
+body.page-id-3556 .lunch-break,
+body.page-id-3556 .opening-remarks,
+body.page-id-3556 .registration {
+	background: rgba(194,181,155,1);
+	font-weight: 600;
+}
+
+body.page-id-3556 .contributors-day .wcpt-time,
+body.page-id-3556 .lunch-break .wcpt-time,
+body.page-id-3556 .opening-remarks .wcpt-time,
+body.page-id-3556 .registration .wcpt-time {
+	background: #448ef6;
+	color: #fff;
+}
+
+body.page-id-3556 .contributors-day a:not( .fav-session-button ),
+body.page-id-3556 .lunch-break a:not( .fav-session-button ),
+body.page-id-3556 .opening-remarks a:not( .fav-session-button ),
+body.page-id-3556 .registration a:not( .fav-session-button ) {
+	color: #000;
+}
+
+body.page-id-3556 .wcpt-session-speakers {
+	clear: both;
+	display: block;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+body.page-id-3556 .wcpt-session-speakers a {
+	color: rgba(40,38,122,1);
+}
+
+body.page-id-3556 .entry-content {
+    max-width: 1100px;
+}
+
+
+body.page-id-3556 td {
+   padding: 10px;
+}
+
+
+tr.wcpt-time-845am td,
+tr.wcpt-time-915am td, 
+tr.wcpt-time-700pm td {
+     background: rgb(194, 181, 155);
+}
+
+tr.wcpt-time-845am td.wcpt-time,
+tr.wcpt-time-915am td.wcpt-time, 
+tr.wcpt-time-700pm td.wcpt-time {
+   background: #448ef6;
+	color: #fff;
+}
+
+
+tr.wcpt-time-930am td:last-child,
+tr.wcpt-time-1030am td:last-child ,tr.wcpt-time-1230pm td:last-child,
+tr.wcpt-time-600pm td:last-child,
+tr.wcpt-time-500pm td:last-child{
+    border-top: 0px;
+    border: none!important;
+    border-right: 1px solid #c2b59b!important;
+}
+
+tr.wcpt-time-1130am td:last-child  {
+    border: none!important;
+    border-top: 1px solid #c2b59b!important;
+	    border-right: 1px solid #c2b59b!important;
 }
